@@ -1,0 +1,383 @@
+@media all and (max-width: 1200px){
+	.container{
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+		box-sizing: border-box;
+	}
+
+
+	/* project css start */
+	.project-content h4 a{
+		font-size: 1.6rem;
+	}
+	/* project css end */
+}
+
+
+
+
+@media all and (max-width: 990px){
+
+	/* header top css start */
+	.menu-popup{
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: -1rem;
+		width: 100%;
+		background: #736357;
+		padding: 1rem;
+		z-index: 9;
+		box-shadow: 0 5px 5px #000;
+	}
+	.menu-area{
+		flex-direction: column;
+		text-align: center;
+	}
+	.mobile-menu{
+		display: block;
+	}
+	.menu nav ul{
+		flex-direction: column;
+	}
+	.menu nav ul li a {
+		padding: 10px .5rem;
+	}
+	.icon{
+		margin: inherit;
+	}
+	.icon a{
+		margin: inherit;
+		margin: .6rem;
+	}
+	.logo-area a img {
+		padding: 2rem 0;
+	}
+	.logo-area a img {
+		padding: 3rem 0;
+	}
+	/* header top css end */
+
+
+
+
+	/* service area css start */
+	.hero .hero-content h3{
+		font-size: 2.3rem;
+	}
+	/* service area css end */
+
+
+
+	/* video area css start */
+	.video-content h3 {
+		margin: 1.5rem 0;
+	}
+	.video-content p{
+		margin-bottom: 2.5rem;
+	}
+	.video-area{
+		padding: 10rem 0;
+	}
+	/* video area css end */
+
+
+
+
+	/* partner area css start */
+	.single-partner img {
+		max-width: 15rem;
+	}
+	/* partner area css end */
+
+
+
+	/* footer top css start */
+	.footer-content{
+		-ms-grid-columns: (1fr)[2];
+		    grid-template-columns: repeat(2, 1fr);
+		grid-row-gap: 3rem;
+	}
+	.footer-img a img{
+		width: 100%;
+	}
+	/* footer top css end */
+}
+
+
+
+
+@media all and (max-width: 767px){
+	/* header top css start */
+	.logo-area a img {
+		padding: 2rem 0;
+	}
+	/* header top css end */
+
+	/* banner content css start */
+	h3{
+		font-size: 2.3rem;
+	}
+	.banner-content h1{
+		font-size: 3.5rem;
+	}
+	.banner-content p{
+		width: 85%;
+	}
+	.left{
+		left: 3rem;
+	}
+	.left img{
+		height: 5rem;
+	}
+	.right img{
+		height: 5rem;
+	}
+	.right{
+		right: 3rem;
+	}
+	.banner-content{
+		padding: 10rem 0 15rem 0;
+	}
+	/* banner content css end */
+
+
+
+
+	/* service area css start */
+	.service{
+		-ms-grid-columns: (1fr)[2];
+		    grid-template-columns: repeat(2, 1fr);
+		grid-row-gap: 5rem;
+	}
+	/* service area css end */
+
+
+
+	/* hero area css start */
+	.hero{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.hero .hero-content p{
+		font-size: 1.4rem;
+		margin-bottom: 1.5rem;
+	}
+	/* hero area css end */
+
+
+
+	/* project css start */
+	.project-tabs ul li{
+		padding: 1rem 1rem;
+		margin: 0 .5rem 1.5rem .5rem;
+	}
+	.project-tabs ul{
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+	}
+	.project-items{
+		/* -ms-grid-columns: (1fr)[2];
+		    grid-template-columns: repeat(2, 1fr); */
+	}
+	.single-project{
+		width: calc(50% - 20px);
+	}
+	/* project css end */
+
+
+
+	/* mobile hand css start */
+	.mobile-content-area{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.mobile-content{
+		-webkit-box-ordinal-group: 0;
+		    -ms-flex-order: -1;
+		        order: -1;
+		margin-bottom: 5rem;
+	}
+	.mobile-content p{
+		text-align: justify;
+	}
+	.mobile-content ul{
+		margin-left: 0;
+	}
+	.mobile-pic img{
+		width: 100%;
+	}
+	/* mobile hand css end */
+
+
+
+	/* fun fact css start */
+	.funfact{
+		-ms-grid-columns: (1fr)[2];
+		    grid-template-columns: repeat(2, 1fr);
+	}
+	.single-fun-fact:not(:last-child){
+		margin-bottom: 8rem;
+	}
+	.single-fun-fact:last-child{
+		-ms-grid-column: span 2;
+		    grid-column: span 2;
+	}
+	/* fun fact css end */
+
+
+
+	/* post area css start */
+	.single-post:last-child{
+		-ms-grid-column: span 2;
+		    grid-column: span 2;
+		max-width: 38rem;
+		justify-self: center;
+	}
+	/* post area css end */
+
+
+
+
+	/* partner area css start */
+	.single-partner {
+		margin-bottom: 4rem;
+	}
+	/* partner area css end */
+
+
+
+	/* footer bottom css start */
+	.copyright-area{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.copyright-content {
+		margin-bottom: 2rem;
+	}
+	.copyright-content ul {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}	
+	/* footer bottom css end */
+
+}
+
+
+
+
+@media all and (max-width: 575px){
+	/* banner content css start */
+	.banner-content{
+		padding: 5rem 0 8rem 0;
+	}
+	.banner-content h1{
+		font-size: 3rem;
+	}
+	/* banner content css end */
+
+
+
+
+	/* hero area css start */
+	.hero{
+		text-align: center;
+	}
+	/* hero area css end */
+
+
+
+	/* project css start */
+	.project-tabs ul {
+		margin-bottom: 3rem;
+	}
+	.project-items{
+		/* -ms-grid-columns: (1fr)[1];
+		    grid-template-columns: repeat(1, 1fr); */
+		margin: 0;
+	}
+	.single-project{
+		width: calc(100% - 20px);
+	}
+	.single-project:last-child{
+		margin-bottom: 4rem;
+	}
+	/* project css end */
+
+
+
+
+	/* post area css start */
+	.single-post:last-child{
+		-ms-grid-column: span 1;
+		    grid-column: span 1;
+		max-width: 100%;
+	}
+	/* post area css end */	
+
+
+
+
+	/* footer top css start */
+	.footer-content{
+		-ms-grid-columns: (1fr)[1];
+		    grid-template-columns: repeat(1, 1fr);
+	}
+	.single-footer:first-child p {
+		text-align: justify;
+	}
+	/* footer top css end */
+
+}
+
+
+
+
+@media all and (max-width: 480px){
+	/* banner content css start */
+	.banner-content p{
+		width: 70%;
+	}
+	/* banner content css end */
+
+
+
+
+	/* service area css start */
+	.service{
+		-ms-grid-columns: (1fr)[1];
+		    grid-template-columns: repeat(1, 1fr);
+	}
+	/* service area css end */
+
+
+
+
+	/* fun fact css start */
+	.funfact{
+		-ms-grid-columns: (1fr)[1];
+		    grid-template-columns: repeat(1, 1fr);
+	}
+	.single-fun-fact:last-child{
+		-ms-grid-column: span 1;
+		    grid-column: span 1;
+	}
+	/* fun fact css end */
+
+
+
+	/* partner area css start */
+	.single-partner:last-child {
+		margin-bottom: 0;
+	}
+	/* partner area css end */
+}
